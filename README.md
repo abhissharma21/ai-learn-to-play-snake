@@ -4,7 +4,6 @@
 
 
 <h1>Algorithm</h1>
-<hr>
 <ol>
   <li><strong>Initialization:</strong></li>
 <ul>
