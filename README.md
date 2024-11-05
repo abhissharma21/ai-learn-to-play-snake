@@ -1,8 +1,9 @@
 <img width="893" alt="image" src="https://github.com/user-attachments/assets/f9281d46-adb4-4dd4-b872-7d4dae8539df">
 
 
-Algorithm
-Initialization:
+<h1>Algorithm</h1>
+<hr>
+<ol><strong>Initialization:</strong></ol>
 The simulation begins at Generation 0.
 A new population of snakes is created, each with a neural network initialized with random weights and biases.
 Game Update:
