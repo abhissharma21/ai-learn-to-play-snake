@@ -3,14 +3,22 @@
 
 <h1>Algorithm</h1>
 <hr>
-<ol><strong>Initialization:</strong></ol>
-The simulation begins at Generation 0.
-A new population of snakes is created, each with a neural network initialized with random weights and biases.
-Game Update:
-Each step, every game is updated by passing vision inputs to the neural network to decide the snake's action.
-A game is flagged as complete if:
-The snake collides with walls or itself.
-The snake fails to eat food within a certain number of steps, preventing indefinite looping.
+<ol>
+  <li><strong>Initialization:</strong></li>
+<ul>
+  <li>The simulation begins at Generation 0.</li>
+  <li>A new population of snakes is created, each with a neural network initialized with random weights and biases.</li>
+</ul>
+<li>Game Update:</li>
+<ul><li>Each step, every game is updated by passing vision inputs to the neural network to decide the snake's action.</li>
+<li>A game is flagged as complete if:
+  <ul>
+  <li>The snake collides with walls or itself.</li>
+  <li>The snake fails to eat food within a certain number of steps, preventing indefinite looping.</li>
+  </ul>
+</li>
+</ul>
+  </ol>
 Generation Completion:
 The generation continues updating each game until all games are complete.
 Fitness Evaluation:
